@@ -100,7 +100,7 @@ st.markdown("This app detects **sarcasm** in text using advanced **machine learn
             "You can upload **PDF, TXT, DOCX** files or input text directly. Let's see if the text has a sarcastic tone!")
 # Footer at the bottom of the sidebar
 st.sidebar.markdown("---")
-st.sidebar.markdown("**Created by Amra Sheikh**")
+
 
 
 
@@ -136,7 +136,6 @@ if st.button("Detect Sarcasm"):
         st.success(f"Prediction (from input text): **{result}**")
     else:
         st.error("Please upload a file or enter some text to get a prediction.")
-# Footer for added professionalism
-st.markdown(
-"**Created by Amra Sheikh**"
-)
+
+
+
